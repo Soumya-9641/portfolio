@@ -15,14 +15,14 @@ class Experience extends Component {
                 <BsPatchCheckFill className="experience__details-icon" />
                 <div>
                   <h4>HTML</h4>
-                  <small className="text-light">Experienced</small>
+                  <small className="text-light">Intermediate</small>
                 </div>
               </article>
               <article className="experience__details">
                 <BsPatchCheckFill className="experience__details-icon" />
                 <div>
                   <h4>CSS</h4>
-                  <small className="text-light">Advandced</small>
+                  <small className="text-light">Intermediate</small>
                 </div>
               </article>
               <article className="experience__details">
@@ -50,7 +50,7 @@ class Experience extends Component {
                 <BsPatchCheckFill className="experience__details-icon" />
                 <div>
                   <h4>React</h4>
-                  <small className="text-light">Senior</small>
+                  <small className="text-light">Intermediate</small>
                 </div>
               </article>
             </div>
@@ -62,14 +62,14 @@ class Experience extends Component {
                 <BsPatchCheckFill className="experience__details-icon" />
                 <div>
                   <h4>NodeJs</h4>
-                  <small className="text-light">Experienced</small>
+                  <small className="text-light">Intermediate</small>
                 </div>
               </article>
               <article className="experience__details">
                 <BsPatchCheckFill className="experience__details-icon" />
                 <div>
                   <h4>Express</h4>
-                  <small className="text-light">Advandced</small>
+                  <small className="text-light">Intermediate</small>
                 </div>
               </article>
               <article className="experience__details">
@@ -83,23 +83,18 @@ class Experience extends Component {
                 <BsPatchCheckFill className="experience__details-icon" />
                 <div>
                   <h4>Next.js</h4>
-                  <small className="text-light">Intermediate</small>
-                </div>
-              </article>
-              <article className="experience__details">
-                <BsPatchCheckFill className="experience__details-icon" />
-                <div>
-                  <h4>MySql</h4>
                   <small className="text-light">Begginer</small>
                 </div>
               </article>
               <article className="experience__details">
                 <BsPatchCheckFill className="experience__details-icon" />
                 <div>
-                  <h4>PHP</h4>
-                  <small className="text-light">Senior</small>
+                  <h4>Microservices</h4>
+                  <small className="text-light">Begginer</small>
                 </div>
               </article>
+              
+              
             </div>
           </div>
         </div>

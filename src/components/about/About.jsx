@@ -13,7 +13,7 @@ class About extends Component {
         <div className="container about__container">
           <div className="about__me">
             <div className="about__me-image">
-              <img src={ME} alt="me" />
+              <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQBE2_XoSoFBPxsqKLItwHIJ82vxDwk1vZppZTyoXfSQH1Olae_rpm8AwXU5vOeIQz4vmg&usqp=CAU" alt="me" />
             </div>
           </div>
           <div className="about__content">
@@ -21,24 +21,31 @@ class About extends Component {
               <article className="about__card">
                 <BsAwardFill className="about__icon" />
                 <h5>Experience</h5>
-                <small>3+ Years Working</small>
+                <small>2+ Years of learning programming</small>
               </article>
-              <article className="about__card">
+              {/* <article className="about__card">
                 <FiUsers className="about__icon" />
                 <h5>Clients</h5>
                 <small>200+ WorldWide</small>
-              </article>
+              </article> */}
               <article className="about__card">
                 <FaProjectDiagram className="about__icon" />
                 <h5>Projects</h5>
-                <small>80+ Completed Projects</small>
+                <small>6+ big and small Completed Projects</small>
               </article>
             </div>
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit.
-              Cupiditate voluptatum recusandae sint ipsam est inventore alias
-              dolorem ducimus voluptatem ipsa quidem expedita dolorum porro
-              error ex amet officia, facilis assumenda!
+            I am a Computer Scientist who is studying at HERITAGE INSTITUTE OF TECHNOLOGY ,KOLKATA.
+            <br/>
+             I am a highly skilled professional developer who loves to take on the challenges and then solve them.
+             <br/>
+            
+             I worked on a portion of their website for their Trinidad and Tobago website.
+             <br/>
+              I also worked with Nastech Group of companies as a freelance web developer.
+              <br/> 
+              Nastech is a giant in IT and cabling sector in Middle Eastern countries. I have also worked with TechnoSpark on React and NextJS technologies.
+              
             </p>
             <a href="#contact" className="btn btn-primary">
               Let's Talk

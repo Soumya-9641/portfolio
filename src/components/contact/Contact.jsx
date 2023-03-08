@@ -39,23 +39,23 @@ class Contact extends Component {
             <div className="contact__option">
               <MdOutlineEmail className="contact__option-icon" />
               <h4>Email</h4>
-              <h5>inext.dev@proton.me</h5>
-              <a href="mailto:inext.dev@proton.me">Send a message</a>
+              <h5>soumyadipgantait2003@Gmail.com</h5>
+              <a href="mailto:soumyadipgantait2003@Gmail.com">Send a message</a>
             </div>
             <div className="contact__option">
               <RiMessengerLine className="contact__option-icon" />
               <h4>Messenger</h4>
               <h5>Dummy Hungry</h5>
-              <a href="https://m.me">Send a message</a>
+              <a href="https://instagram.com/soumya.hustler?igshid=ZDdkNTZiNTM=">Send a message</a>
             </div>
-            <div className="contact__option">
+            {/* <div className="contact__option">
               <RiWhatsappLine className="contact__option-icon" />
               <h4>Whatsapp</h4>
               <h5>+212 704866309</h5>
               <a href="https://api.whatsapp.com/send?phone=212704866309">
                 Send a message
               </a>
-            </div>
+            </div> */}
           </div>
           <form ref={this.form} onSubmit={this.sendEmail} action="">
             <input

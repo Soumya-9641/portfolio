@@ -8,7 +8,7 @@ class Services extends Component {
         <h5>What I Offer</h5>
         <h2>Services</h2>
         <div className="container services__container">
-          <article className="service">
+          {/* <article className="service">
             <div className="service__head">
               <h3>UI/UX Design</h3>
             </div>
@@ -42,7 +42,7 @@ class Services extends Component {
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing.</p>
               </li>
             </ul>
-          </article>
+          </article> */}
           <article className="service">
             <div className="service__head">
               <h3>Web Development</h3>
@@ -50,35 +50,28 @@ class Services extends Component {
             <ul className="service__list">
               <li>
                 <BiCheck className="service__list-icon" />
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+                <p>Convert graphic designs to usable web images using React JS.</p>
               </li>
               <li>
                 <BiCheck className="service__list-icon" />
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+                <p>Code websites using HTML, CSS, JavaScript and  languages.</p>
               </li>
               <li>
                 <BiCheck className="service__list-icon" />
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+                <p>create mongodb database and restAPI.</p>
               </li>
               <li>
                 <BiCheck className="service__list-icon" />
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+                <p>exploring docker containerization and microservices.</p>
               </li>
               <li>
                 <BiCheck className="service__list-icon" />
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+                <p>Can create website design using tools like tailwind,bootstrap,sass.</p>
               </li>
-              <li>
-                <BiCheck className="service__list-icon" />
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing.</p>
-              </li>
-              <li>
-                <BiCheck className="service__list-icon" />
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing.</p>
-              </li>
+             
             </ul>
           </article>
-          <article className="service">
+          {/* <article className="service">
             <div className="service__head">
               <h3>Content Creation</h3>
             </div>
@@ -124,7 +117,7 @@ class Services extends Component {
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing.</p>
               </li>
             </ul>
-          </article>
+          </article> */}
         </div>
       </section>
     );

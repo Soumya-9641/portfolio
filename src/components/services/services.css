@@ -1,7 +1,11 @@
 .services__container {
-  display: grid;
+  /* display: grid;
   grid-template-columns: repeat(3, 1fr);
-  gap: 3rem;
+  gap: 3rem; */
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
 }
 .service {
   background: var(--color-bg-variant);
