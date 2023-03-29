@@ -10,7 +10,7 @@ class Header extends Component {
         <div className="container header__container">
           <h5>Hello I am</h5>
           <h1>Soumyadip Gantait</h1>
-          <div className="text-light">A passionate Full Stack Software Developer 🚀
+          <div className="text-light">A passionate Full Stack Software Developer 🚀.Learning Devops
           <br/>
            having a special interest in Frontend technologies and experience of building Web applications with JavaScript / Reactjs / Nodejs
            <br/>
