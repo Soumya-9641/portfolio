@@ -10,44 +10,56 @@ import "./portfolio.css";
 const data = [
   {
     id: 1,
-    image: "/images/amazon.png",
-    title: "Crypto Currency Dashboard & Financial Visualization",
+    image: "/images/amazon.jpeg",
+    title: "Amazon Clone",
+    about:"amazon clone with some types of product like tshirt,shirt with authentication features using firebase",
+    tech:"react,Node,firebase,express",
     github: "https://github.com/Soumya-9641/amazon-clone.git",
     demo: "https://inext.dev"
   },
   {
     id: 2,
-    image: "/images/bookstore.png",
-    title: "Crypto Currency Dashboard & Financial Visualization",
+    image: "/images/bookstore.jpeg",
+    title: "Bookstore",
+    about:"a bookstore app where you can purchase multiple types of book ,add to cart them etc ",
+    tech:"Next.js,Node,express,mongodb,paytm payment",
     github: "https://github.com/Soumya-9641/Bookstore_website.git",
     demo: "https://inext.dev"
   },
 
   {
     id: 3,
-    image: "/images/todolist.png",
-    title: "Crypto Currency Dashboard & Financial Visualization",
+    image: "/images/todo.jpeg",
+    title: "To-do list",
+    about:"a todo list to add important work and delete as wish",
+    tech:"react,Node,reactHooks",
     github: "https://github.com/Soumya-9641/TO_DO-USING-REACTHOOKS.git",
     demo: "https://inext.dev"
   },
   {
     id: 4,
-    image: "/images/redux.png",
-    title: "Crypto Currency Dashboard & Financial Visualization",
+    image: "/images/videocall.jpeg",
+    title: "To-do list using redux",
+    about:"a todo list to add important work and delete as wish",
+    tech:"react,Node,redux",
     github: "https://github.com/Soumya-9641/To-do_using_Redux.git",
     demo: "https://inext.dev"
   },
   {
     id: 5,
-    image: "/images/newsletter.png",
-    title: "Crypto Currency Dashboard & Financial Visualization",
-    github: "https://github.com/Soumya-9641/Signup_newletter.git",
+    image: "/images/yechat.jpeg",
+    title: "YeChat",
+    about:"a todo list to add important work and delete as wish",
+    tech:"react,Node,express",
+    github: "https://github.com/Soumya-9641/Firebase_chatapp.git",
     demo: "https://inext.dev"
   },
   {
     id: 6,
-    image: "/images/mern stack.png",
-    title: "CryptCurrency Dashboard & Financial Visualization",
+    image: "/images/mern.jpeg",
+    title: "Weather App",
+    about:"a todo list to add important work and delete as wish",
+    tech:"react,Node,mongodb,express",
     github: "https://github.com/Soumya-9641/full_mernStack.git",
     demo: "https://inext.dev"
   }
@@ -60,13 +72,15 @@ class Portfolio extends Component {
         <h5>My Recent Work</h5>
         <h2>Portfolio</h2>
         <div className="container portfolio__container">
-          {data.map(({ id, image, title, github, demo }) => {
+          {data.map(({ id, image, title, github,about,tech, demo }) => {
             return (
               <article key={id} className="portfolio__item">
                 <div className="portfolio__item-image">
                   <img src={image} alt="" />
                 </div>
-                <h3>{title}</h3>
+                <h3 className="portfolio_title">{title}</h3>
+                <h5 className="portfolio_about">{about}</h5>
+                <h5 className="portfolio_tech">Tech Stack:  {tech}</h5>
                 <div className="portfolio__item-cta">
                   <a href={github} className="btn" target="#">
                     Github

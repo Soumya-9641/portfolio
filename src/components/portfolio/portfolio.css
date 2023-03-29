@@ -20,7 +20,22 @@
   overflow: hidden;
 }
 .portfolio__item h3 {
-  margin: 1.2rem 0 2rem;
+  margin: .2rem 0 .2rem;
+
+}
+.portfolio_title{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.portfolio_tech{
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-weight: 300;
+  color: rgb(218, 124, 30);
+ margin: .5rem;
+}
+.portfolio_about{
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 .portfolio__item-cta {
   display: flex;
