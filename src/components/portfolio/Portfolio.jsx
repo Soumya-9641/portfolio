@@ -43,7 +43,7 @@ const data = [
     about:"A video calling app where two people enter same code and create a room for video calling",
     tech:"react,Node,redux,AgoraRTM",
     github: "https://github.com/Soumya-9641/videcall.git",
-    demo: "https://inext.dev"
+    demo: "https://videcall-soumya-9641.vercel.app/"
   },
   {
     id: 5,
