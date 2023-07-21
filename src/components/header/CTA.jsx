@@ -1,5 +1,6 @@
 import { Component } from "react";
-import myresume from "../../assets/myresume.pdf";
+
+import myresume from "../../assets/myresume.pdf"
 class CTA extends Component {
   render() {
     return (
