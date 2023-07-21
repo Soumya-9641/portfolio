@@ -1,9 +1,9 @@
 import { Component } from "react";
 import {
   IoLogoTwitter,
-  IoLogoFacebook,
+  //IoLogoFacebook,
   IoLogoInstagram,
-  IoLogoYoutube
+ // IoLogoYoutube
 } from "react-icons/io";
 import "./footer.css";
 class Footer extends Component {

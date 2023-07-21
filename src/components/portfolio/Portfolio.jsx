@@ -24,7 +24,7 @@ const data = [
     about:"a bookstore app where you can purchase multiple types of book ,add to cart them etc ",
     tech:"Next.js,Node,express,mongodb,Razorpay payment,Tailwind CSS",
     github: "https://github.com/Soumya-9641/Bookstore_website.git",
-    demo: "https://inext.dev"
+    demo: "https://drive.google.com/file/d/1nkz4QHQJqFyt2DwbEGorYx8qpAhA4Rkc/view?usp=sharing"
   },
 
   {
@@ -34,7 +34,7 @@ const data = [
     about:"a donation app to donate your unused things like shirts,bags,shoes",
     tech:"react,Node,reactHooks,Razorpay,Mongodb,Tailwind CSS",
     github: "https://github.com/Soumya-9641/full_mernStack.git",
-    demo: "https://inext.dev"
+    demo: "https://drive.google.com/file/d/1OG7JNFeX0l2GS5hACkK0KsiNuZfWSOsC/view?usp=sharing"
   },
   {
     id: 4,
@@ -52,7 +52,7 @@ const data = [
     about:"a firebase chat app where logged in people can talk to each other",
     tech:"react,Firebase,SCSS",
     github: "https://github.com/Soumya-9641/Firebase_chatapp.git",
-    demo: "https://inext.dev"
+    demo: "https://drive.google.com/file/d/1u0WSMjZPm2mh8s8jmcsMbgwK1R5ZY-x1/view?usp=sharing"
   },
   {
     id: 6,
@@ -61,7 +61,16 @@ const data = [
     about:"A nextjs app where developers can upload there blogs ,articles",
     tech:"NextJs,mongodb,Tailwind CSS",
     github: " https://github.com/Soumya-9641/techoverflow.git",
-    demo: "https://inext.dev"
+    demo: "https://drive.google.com/file/d/18uMb2n0k8aVDYFlvfTQrlB2mT2Z27bz2/view?usp=sharing"
+  },
+  {
+    id: 7,
+    image: "/images/graphql.jpeg",
+    title: "graphql",
+    about:"A MERN app using GRAPHQL where user can post ,delete any social media post using semantic ui component.",
+    tech:"React,mongodb,semantic ui,NodeJS,Express,GraphQL",
+    github: "https://github.com/Soumya-9641/Social-media-app-using-GraphQL",
+    demo: "https://drive.google.com/file/d/1v1l5-IFo9Sb9wUGb94Mn3suZrCwZmUY4/view?usp=sharing"
   }
 ];
 
