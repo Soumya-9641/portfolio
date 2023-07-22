@@ -20,7 +20,7 @@ const CTA =()=> {
         {/* <button onClick={handleClick} className="btn" download>
           Download CV
         </button> */}
-        <a href="https://drive.google.com/file/d/1Uf3xzqXSgdjJmS4CJEbKwJwbMiX4jvA2/view?usp=sharing" target="__blank" className="btn" download>
+        <a href="https://drive.google.com/file/d/1x0zi7oh3ZcafHhF1AlWUOc0ngGzeSpKf/view?usp=sharing" target="__blank" className="btn" download>
           Download CV
         </a>
         <a className="btn btn-primary" href="#contact">
